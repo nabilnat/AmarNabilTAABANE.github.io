@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/AmarNabilTAABANE.github.io/static/css/main.1384986c.css",
+    "main.js": "/AmarNabilTAABANE.github.io/static/js/main.f9fab067.js",
+    "static/js/453.0358418e.chunk.js": "/AmarNabilTAABANE.github.io/static/js/453.0358418e.chunk.js",
+    "static/media/scout.png": "/AmarNabilTAABANE.github.io/static/media/scout.82b2add6a6851970373c.png",
+    "static/media/adcertif.png": "/AmarNabilTAABANE.github.io/static/media/adcertif.f90e9c0fac224b72da5a.png",
+    "static/media/HomeAI.png": "/AmarNabilTAABANE.github.io/static/media/HomeAI.ec44dbacbf9e1c50e0b1.png",
+    "static/media/Nabil.jpg": "/AmarNabilTAABANE.github.io/static/media/Nabil.270663c94f4028c832e8.jpg",
+    "static/media/php.png": "/AmarNabilTAABANE.github.io/static/media/php.6cb70c1fab157b357d72.png",
+    "static/media/login.png": "/AmarNabilTAABANE.github.io/static/media/login.2990ebb862913e4778d8.png",
+    "static/media/react.png": "/AmarNabilTAABANE.github.io/static/media/react.3b5049ea7908e9da3ba0.png",
+    "static/media/typescript.png": "/AmarNabilTAABANE.github.io/static/media/typescript.c6f980241f6f04545895.png",
+    "static/media/sql.png": "/AmarNabilTAABANE.github.io/static/media/sql.56e944602c7349e2da58.png",
+    "static/media/python.png": "/AmarNabilTAABANE.github.io/static/media/python.c038d6e950c57ddc3d03.png",
+    "static/media/wordpress.png": "/AmarNabilTAABANE.github.io/static/media/wordpress.d1454ff3771a701af1ac.png",
+    "index.html": "/AmarNabilTAABANE.github.io/index.html",
+    "main.1384986c.css.map": "/AmarNabilTAABANE.github.io/static/css/main.1384986c.css.map",
+    "main.f9fab067.js.map": "/AmarNabilTAABANE.github.io/static/js/main.f9fab067.js.map",
+    "453.0358418e.chunk.js.map": "/AmarNabilTAABANE.github.io/static/js/453.0358418e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1384986c.css",
+    "static/js/main.f9fab067.js"
+  ]
+}
