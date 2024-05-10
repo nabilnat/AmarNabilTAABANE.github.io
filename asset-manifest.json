@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1384986c.css",
+    "main.js": "/static/js/main.bd636813.js",
+    "static/js/453.0358418e.chunk.js": "/static/js/453.0358418e.chunk.js",
+    "static/media/scout.png": "/static/media/scout.82b2add6a6851970373c.png",
+    "static/media/adcertif.png": "/static/media/adcertif.f90e9c0fac224b72da5a.png",
+    "static/media/HomeAI.png": "/static/media/HomeAI.ec44dbacbf9e1c50e0b1.png",
+    "static/media/Nabil.jpg": "/static/media/Nabil.270663c94f4028c832e8.jpg",
+    "static/media/php.png": "/static/media/php.6cb70c1fab157b357d72.png",
+    "static/media/login.png": "/static/media/login.2990ebb862913e4778d8.png",
+    "static/media/react.png": "/static/media/react.3b5049ea7908e9da3ba0.png",
+    "static/media/typescript.png": "/static/media/typescript.c6f980241f6f04545895.png",
+    "static/media/sql.png": "/static/media/sql.56e944602c7349e2da58.png",
+    "static/media/python.png": "/static/media/python.c038d6e950c57ddc3d03.png",
+    "static/media/wordpress.png": "/static/media/wordpress.d1454ff3771a701af1ac.png",
+    "index.html": "/index.html",
+    "main.1384986c.css.map": "/static/css/main.1384986c.css.map",
+    "main.bd636813.js.map": "/static/js/main.bd636813.js.map",
+    "453.0358418e.chunk.js.map": "/static/js/453.0358418e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1384986c.css",
+    "static/js/main.bd636813.js"
+  ]
+}
