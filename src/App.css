@@ -23,3 +23,7 @@
     background: #1976d2; 
     border-radius: 10px;
   }
+
+.parent .hidden-child{
+    visibility: hidden;
+}

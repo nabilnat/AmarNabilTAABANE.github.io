@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import logo from '../assets/img/logo-transparent-png.png'
-import search from '../assets/img/search.png'
 import resume from '../assets/pdf/resume TAABANE Amar Nabil.pdf'
 
 const Section=styled.div`
@@ -41,9 +40,11 @@ const Icon=styled.img`
     width: 20px;
     cursor: pointer;
 `
-const Button=styled.button`
+const Button=styled.a`
     width: 100px;
     padding: 10px;
+    text-align: center;
+    text-decoration: none;
     background-color: #da4ea2;
     color: white;
     border: none;
@@ -65,8 +66,8 @@ export const Navbar = () => {
                 </List>
             </Links>
             <Icons>
-               <Icon src={search}/>
-               <Button download={resume}>download</Button>
+               
+               <Button download href={resume}>Download</Button>
 
                
             </Icons>

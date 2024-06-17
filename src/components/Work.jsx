@@ -82,6 +82,7 @@ const Left=styled.div`
 const Right=styled.div`
 	flex:5;
 	display: flex;
+  cursor: grab;
 	justify-content: center;
 	align-items: center;
 `

@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
-import line from '../assets/img/line.png'
-//import moon from '../assets/img/moon.png'
+import Slider from "react-slick";
+import scout from '../assets/image/scout.png'
+import adcertif from '../assets/image/adcertif.png'
+import HomeAI from '../assets/image/HomeAI.png'
+import garini from '../assets/image/garini.png'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 const Section=styled.div`
 	height: 100vh;
@@ -12,78 +18,62 @@ const Section=styled.div`
 	justify-content: space-between;
 	width: 100%;
 `
-const Container=styled.div`
-	height: 100vh;
-	width:70%;
-	display: flex;
-	justify-content: space-between;
- 
-`
-const Right=styled.div`
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap:20px;
-`
-const Left=styled.div`
-	flex:1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-`
-const Title=styled.h1`
-	font-size:48px;
-`
-const WhatWeDo=styled.div`
-	display:flex;
-	align-items: center;
-	gap:10px;
-`
-const Line=styled.img`
-  height: 5px;
-  
-`
-const Subtitles=styled.h2`
-	color:#da4ea2;
-`
-const Disc=styled.div`
-	font-size: 24px;
-	color: lightgray;
-`
-const Button=styled.button`
-	background-color: #da4ea2;
-	color:white;
-	font-weight: 500;
-	width: 100px;
-	padding: 10px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-`
 
+var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 2000,
+	adaptiveHeight: false
+  };
+
+
+  function Img(props) {
+	const[show,setShow] = useState(false);
+	const {src, disc, title } = props;
+	const shows=()=>{
+		setShow(true)
+	}
+	const hide=()=>{
+		setShow(false)
+	}
+	return (
+	  <div style={{position:"relative"}} onMouseEnter={()=>shows()} onMouseLeave={()=>hide()}>
+		<img src={src} style={{height:"75vh", width:"100%" ,objectFit:"cover",borderRadius:5}} />
+		<div style={{position:"absolute" ,bottom:0 ,backgroundColor:"rgba(58, 6, 82, 0.868)",width:"90%",marginLeft:"5%", marginBottom:"5%" ,borderRadius:10 ,display:(show)?"block":"none"}}>
+			<h2 style={{marginLeft:"5%"}}>{title}</h2>
+			<div style={{marginLeft:"5%",marginBottom:"5%"}}>{disc}</div>
+		</div>
+	  </div>
+	);
+  }
 
 export const Who = () => {
   return (
     <Section>
       
-        <Container>
-            <Left>
-             
-            </Left>
-            <Right>
-            	<Title>Think outside the square space</Title>
-            	<WhatWeDo>
-            		<Line src={line} />
-                	<Subtitles>Who we Are</Subtitles>
-            	</WhatWeDo>
-            	<Disc>
-                a creative group of designers and developers with a passion for the
-                arts.
-              	</Disc>
-              	<Button>See our works</Button>
-            </Right>
-        </Container>
+      
+		<div className="slider-container" style={{width:"70%",marginTop:"auto",marginBottom:"auto"}}>
+			<Slider {...settings} >
+				
+					<Img src={scout} title="scout" disc={"A national platform for Algerian scouts to manage members, membership fees, and even missions."}/>
+					
+				
+					<Img src={adcertif} title="Ad-certif" disc={"An e-learning site to conduct courses and exams online."}/>
+					
+				
+					<Img src={HomeAI} title="HomeAI" disc={"Intelligent tools to assist decoration engineers."}/>
+					
+				
+				
+					<Img src={garini} title="Garini" disc={"A mobile application with a back office developed for a startup called Garini to manage parking space reservations."}/>
+			
+			</Slider>
+		</div>
+       
     </Section>
   )
 }
