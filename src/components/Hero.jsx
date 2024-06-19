@@ -7,6 +7,14 @@ import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 import { Canvas } from '@react-three/fiber'
 import resume from '../assets/pdf/resume TAABANE Amar Nabil.pdf'
 
+function getWindowDimensions() {
+	const { innerWidth: width, innerHeight: height } = window;
+	return {
+	  width,
+	  height
+	};
+  } 
+
 const Section=styled.div`
 	height: 100vh;
 	display: flex;
@@ -15,13 +23,22 @@ const Section=styled.div`
 	scroll-snap-align:center;
 	justify-content: space-between;
 	width: 100%;
+	@media screen and (max-width: 768px) {
+		height: 200vh ;
+	}
 `
 const Container=styled.div`
 	height: 85vh;
 	width:75%;
 	display: flex;
 	justify-content: space-between;
- 
+	@media screen and (max-width: 768px) {
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
 `
 const Left=styled.div`
 
@@ -31,6 +48,13 @@ const Left=styled.div`
     flex-direction: column;
     justify-content: center;
     gap:10px;
+	@media screen and (max-width: 768px) {
+		flex:1;
+		height: 100vh;
+		justify-content: center;
+		align-items: center;
+		margin: 5%;
+	}
 `
 const Right=styled.div`
 	flex:3;
@@ -38,6 +62,13 @@ const Right=styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	@media screen and (max-width: 768px) {
+		flex:1;
+		height: 100vh;
+		width: 100%;
+		overflow: visible;
+		
+	}
 `
 const Title=styled.h1`
 	font-size:68px;
@@ -85,6 +116,7 @@ const Img=styled.img`
 		transform: translateY(20px);
 	}
   }
+  
 `
 
 export const Hero = () => {
@@ -110,7 +142,7 @@ export const Hero = () => {
             <Right>
 				<Canvas>
 					<Suspense fallback={null}>
-						<OrbitControls enableZoom={false}  autoRotate/>
+						{(getWindowDimensions()> 768) && (<OrbitControls enableZoom={false}   autoRotate/>)}
 						<ambientLight intensity={1.5}/>
 						<directionalLight position={[3,2,1]}/>
 						<Sphere args={[0.75, 100, 200]} scale={2.6}>

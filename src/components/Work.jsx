@@ -29,6 +29,10 @@ const Container=styled.div`
 	width:70%;
 	display: flex;
 	justify-content: space-between;
+  @media  only screen and (max-width: 768px){
+      flex:1;
+      width:90%;
+  }
  
 `
 
@@ -78,6 +82,10 @@ const Left=styled.div`
     flex-direction: column;
     justify-content: center;
     gap:20px;
+    @media  only screen and (max-width: 768px){
+      flex:1;
+      width:100%;
+  }
 `
 const Right=styled.div`
 	flex:5;
@@ -85,6 +93,9 @@ const Right=styled.div`
   cursor: grab;
 	justify-content: center;
 	align-items: center;
+  @media  only screen and (max-width: 768px){
+    display: none;
+  }
 `
 
 
