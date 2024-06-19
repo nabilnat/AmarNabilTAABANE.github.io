@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AmarNabilTAABANE.github.io/static/css/main.a94985e4.css",
-    "main.js": "/AmarNabilTAABANE.github.io/static/js/main.044592bf.js",
+    "main.js": "/AmarNabilTAABANE.github.io/static/js/main.b1e1d19f.js",
     "static/js/453.0358418e.chunk.js": "/AmarNabilTAABANE.github.io/static/js/453.0358418e.chunk.js",
     "static/media/react_native-transformed.glb": "/AmarNabilTAABANE.github.io/static/media/react_native-transformed.77034e8364646ffdf826.glb",
     "static/media/scout.png": "/AmarNabilTAABANE.github.io/static/media/scout.82b2add6a6851970373c.png",
@@ -21,11 +21,11 @@
     "static/media/slick.woff": "/AmarNabilTAABANE.github.io/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/AmarNabilTAABANE.github.io/index.html",
     "main.a94985e4.css.map": "/AmarNabilTAABANE.github.io/static/css/main.a94985e4.css.map",
-    "main.044592bf.js.map": "/AmarNabilTAABANE.github.io/static/js/main.044592bf.js.map",
+    "main.b1e1d19f.js.map": "/AmarNabilTAABANE.github.io/static/js/main.b1e1d19f.js.map",
     "453.0358418e.chunk.js.map": "/AmarNabilTAABANE.github.io/static/js/453.0358418e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a94985e4.css",
-    "static/js/main.044592bf.js"
+    "static/js/main.b1e1d19f.js"
   ]
 }
