@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/AmarNabilTAABANE.github.io/static/css/main.a94985e4.css",
-    "main.js": "/AmarNabilTAABANE.github.io/static/js/main.771c8603.js",
+    "main.js": "/AmarNabilTAABANE.github.io/static/js/main.3ccdd5d0.js",
     "static/js/453.0358418e.chunk.js": "/AmarNabilTAABANE.github.io/static/js/453.0358418e.chunk.js",
     "static/media/react_native-transformed.glb": "/AmarNabilTAABANE.github.io/static/media/react_native-transformed.77034e8364646ffdf826.glb",
     "static/media/scout.png": "/AmarNabilTAABANE.github.io/static/media/scout.82b2add6a6851970373c.png",
     "static/media/garini.png": "/AmarNabilTAABANE.github.io/static/media/garini.6825d40488a5162abd98.png",
     "static/media/adcertif.png": "/AmarNabilTAABANE.github.io/static/media/adcertif.f90e9c0fac224b72da5a.png",
     "static/media/HomeAI.png": "/AmarNabilTAABANE.github.io/static/media/HomeAI.ec44dbacbf9e1c50e0b1.png",
+    "static/media/Amar Nabil Taabane-cv (1).pdf": "/AmarNabilTAABANE.github.io/static/media/Amar Nabil Taabane-cv (1).c044198e3b936f4d5779.pdf",
     "static/media/logo-transparent-png.png": "/AmarNabilTAABANE.github.io/static/media/logo-transparent-png.3acfafdd6b34039f5624.png",
     "static/media/laravel-transformed.glb": "/AmarNabilTAABANE.github.io/static/media/laravel-transformed.5772fa72965c4a34f1f4.glb",
     "static/media/dev.png": "/AmarNabilTAABANE.github.io/static/media/dev.9bfa9522478210d067aa.png",
-    "static/media/Amar Nabil TAABANE.pdf": "/AmarNabilTAABANE.github.io/static/media/Amar Nabil TAABANE.0313afbca864383fde49.pdf",
     "static/media/bg.jpeg": "/AmarNabilTAABANE.github.io/static/media/bg.1a97868b8d7bffa37e83.jpeg",
     "static/media/react-transformed.glb": "/AmarNabilTAABANE.github.io/static/media/react-transformed.8375907b9c937b795e08.glb",
     "static/media/python-transformed.glb": "/AmarNabilTAABANE.github.io/static/media/python-transformed.15836f8f2228c40a4b81.glb",
@@ -21,11 +21,11 @@
     "static/media/slick.woff": "/AmarNabilTAABANE.github.io/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/AmarNabilTAABANE.github.io/index.html",
     "main.a94985e4.css.map": "/AmarNabilTAABANE.github.io/static/css/main.a94985e4.css.map",
-    "main.771c8603.js.map": "/AmarNabilTAABANE.github.io/static/js/main.771c8603.js.map",
+    "main.3ccdd5d0.js.map": "/AmarNabilTAABANE.github.io/static/js/main.3ccdd5d0.js.map",
     "453.0358418e.chunk.js.map": "/AmarNabilTAABANE.github.io/static/js/453.0358418e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a94985e4.css",
-    "static/js/main.771c8603.js"
+    "static/js/main.3ccdd5d0.js"
   ]
 }
