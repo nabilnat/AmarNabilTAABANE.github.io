@@ -135,7 +135,7 @@ export const Hero = () => {
                     </Subtitles>
                 </WhatWeDo>
                 <Disc>
-				an Information Technology Engineering student at ÉTS, specializing in web and mobile development as well as artificial intelligence, I have developed a strong proficiency in these fields. I am passionate about driving innovation and creating cutting-edge technological solutions.
+				a specializing in web and mobile development as well as artificial intelligence, I have developed a strong proficiency in these fields. I am passionate about driving innovation and creating cutting-edge technological solutions.
                 </Disc>
                 <Button download href={resume}>Download Resume</Button>
             </Left>
