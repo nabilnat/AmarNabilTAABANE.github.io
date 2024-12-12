@@ -5,7 +5,7 @@ import line from '../assets/img/line.png'
 import moon from '../assets/img/dev.png'
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 import { Canvas } from '@react-three/fiber'
-import resume from '../assets/pdf/resume TAABANE Amar Nabil.pdf'
+import resume from '../assets/pdf/Amar Nabil Taabane-cv (1).pdf'
 
 function getWindowDimensions() {
 	const { innerWidth: width, innerHeight: height } = window;

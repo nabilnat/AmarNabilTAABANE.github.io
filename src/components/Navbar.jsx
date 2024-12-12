@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import logo from '../assets/img/logo-transparent-png.png'
-import resume from '../assets/pdf/resume TAABANE Amar Nabil.pdf'
+import resume from '../assets/pdf/Amar Nabil Taabane-cv (1).pdf'
 
 const Section=styled.div`
 display: flex;
