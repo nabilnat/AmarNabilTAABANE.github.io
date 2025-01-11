@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { React3D } from './React3D'
+import { React3D } from '../components/React3D'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
-import { Laravel3d } from './Laravel3d'
-import { ReactNative3d } from './ReactNative3d'
-import { Python3d } from './Python3d'
+import { Laravel3d } from '../components/Laravel3d'
+import { ReactNative3d } from '../components/ReactNative3d'
+import { Python3d } from '../components/Python3d'
 
 
 const data = [
@@ -99,13 +99,27 @@ const Right=styled.div`
 `
 
 
-export const Work = () => {
+export const Tech = () => {
 
   const [logo,setLogo]=useState(data[0]);
  
   const handle_logo = (item) =>{
-  
     setLogo(item);
+  }
+
+  const Selected_logo =()=>{
+    switch(logo){
+      case 'React JS':
+        return <React3D />
+      case 'React Native':
+        return <ReactNative3d />
+      case 'Laravel':
+        return <Laravel3d />
+      case 'Python':
+        return <Python3d />
+      default:
+        return <React3D />
+    }
   }
   return (
     <Section>
@@ -121,10 +135,8 @@ export const Work = () => {
             <Right>
                 <Canvas>
                   <OrbitControls enableZoom={false}  autoRotate/>
-                  {(data[0]===logo) && (<React3D />)}
-                  {(data[1]===logo) &&(<ReactNative3d />)}
-                  {(data[2]===logo) &&(<Laravel3d/>)}
-                  {(data[3]===logo) &&(<Python3d />) }                
+                  {Selected_logo()}
+                              
                 </Canvas>
                 
             </Right>

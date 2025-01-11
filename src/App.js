@@ -1,8 +1,8 @@
 import './App.css';
-import { Hero } from './components/Hero';
-import { Work } from './components/Work';
-import { Who } from './components/Who';
-import { Contact } from './components/Contact';
+import { Profile } from './pages/Profil';
+import { Tech } from './pages/Tech';
+import { Projects } from './pages/Projects';
+import { Contact } from './pages/Contact';
 import styled from 'styled-components';
 import bg from './assets/img/bg.jpeg';
 
@@ -24,10 +24,10 @@ function App() {
   
   return (
    <Container>
-      <Hero/>
-      <Who/>
-      <Work/>
-      {<Contact/>}
+      <Profile/>
+      <Projects/>
+      <Tech/>
+      <Contact/>
    </Container>
   );
 }

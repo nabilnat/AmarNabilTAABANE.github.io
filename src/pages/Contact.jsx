@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import styled from 'styled-components'
-import Map from './Map'
+import Map from '../components/Map'
 
 
 const Section=styled.div`

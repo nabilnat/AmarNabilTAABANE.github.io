@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react'
 import styled from 'styled-components'
-import { Navbar } from './Navbar'
+import { Navbar } from '../components/Navbar'
 import line from '../assets/img/line.png'
 import moon from '../assets/img/dev.png'
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
@@ -119,7 +119,7 @@ const Img=styled.img`
   
 `
 
-export const Hero = () => {
+export const Profile = () => {
   return (
     <Section>
         <Navbar/>

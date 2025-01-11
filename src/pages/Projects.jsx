@@ -58,7 +58,7 @@ var settings = {
 	);
   }
 
-export const Who = () => {
+export const Projects = () => {
   return (
     <Section>
 		{( getWindowDimensions().width> 768) && (<div className="slider-container" style={{width:"70%",marginTop:"auto",marginBottom:"auto"}}>
